@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MjqsgKKSHks9XQdfx0RH1W1nzoLvFURL7Qf6PFooMaj0HzctAaeaRGMCpssOzLZUr7aUn/iJKc2aXKIncGYV4g==",
+  "dgSpecHash": "EMvZ7wJSkemJJGD0hMEHxWjbAIU7AK7OBtBvtLdZrUu1ln//+IhfIcE1sL1y8GwHZ2wuJaY0Q9eybfPvCpq0gw==",
   "success": true,
-  "projectFilePath": "C:\\Qt\\projects\\ilgeneration\\ilgeneration.csproj",
+  "projectFilePath": "C:\\Qt\\projects\\ilgeneration\\testRep\\ilgeneration.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

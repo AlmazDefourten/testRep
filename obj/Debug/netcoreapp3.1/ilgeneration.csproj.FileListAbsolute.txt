@@ -12,3 +12,17 @@ C:\Qt\projects\ilgeneration\bin\Debug\netcoreapp3.1\ilgeneration.pdb
 C:\Qt\projects\ilgeneration\obj\Debug\netcoreapp3.1\ilgeneration.dll
 C:\Qt\projects\ilgeneration\obj\Debug\netcoreapp3.1\ilgeneration.pdb
 C:\Qt\projects\ilgeneration\obj\Debug\netcoreapp3.1\ilgeneration.genruntimeconfig.cache
+C:\Qt\projects\ilgeneration\testRep\bin\Debug\netcoreapp3.1\ilgeneration.exe
+C:\Qt\projects\ilgeneration\testRep\bin\Debug\netcoreapp3.1\ilgeneration.deps.json
+C:\Qt\projects\ilgeneration\testRep\bin\Debug\netcoreapp3.1\ilgeneration.runtimeconfig.json
+C:\Qt\projects\ilgeneration\testRep\bin\Debug\netcoreapp3.1\ilgeneration.runtimeconfig.dev.json
+C:\Qt\projects\ilgeneration\testRep\bin\Debug\netcoreapp3.1\ilgeneration.dll
+C:\Qt\projects\ilgeneration\testRep\bin\Debug\netcoreapp3.1\ilgeneration.pdb
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.csproj.AssemblyReference.cache
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.AssemblyInfoInputs.cache
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.AssemblyInfo.cs
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.csproj.CoreCompileInputs.cache
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.dll
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.pdb
+C:\Qt\projects\ilgeneration\testRep\obj\Debug\netcoreapp3.1\ilgeneration.genruntimeconfig.cache
