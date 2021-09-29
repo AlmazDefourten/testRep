@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Qt\\projects\\ilgeneration\\ilgeneration.csproj": {}
+    "C:\\Qt\\projects\\ilgeneration\\testRep\\ilgeneration.csproj": {}
   },
   "projects": {
-    "C:\\Qt\\projects\\ilgeneration\\ilgeneration.csproj": {
+    "C:\\Qt\\projects\\ilgeneration\\testRep\\ilgeneration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Qt\\projects\\ilgeneration\\ilgeneration.csproj",
+        "projectUniqueName": "C:\\Qt\\projects\\ilgeneration\\testRep\\ilgeneration.csproj",
         "projectName": "ilgeneration",
-        "projectPath": "C:\\Qt\\projects\\ilgeneration\\ilgeneration.csproj",
+        "projectPath": "C:\\Qt\\projects\\ilgeneration\\testRep\\ilgeneration.csproj",
         "packagesPath": "C:\\Users\\Алмаз\\.nuget\\packages\\",
-        "outputPath": "C:\\Qt\\projects\\ilgeneration\\obj\\",
+        "outputPath": "C:\\Qt\\projects\\ilgeneration\\testRep\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Алмаз\\AppData\\Roaming\\NuGet\\NuGet.Config",
