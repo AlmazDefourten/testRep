@@ -6,53 +6,43 @@ namespace Program
     // this is commit OLOLOLOLO
     class Program
     {
-        
-        class Bag
+        interface IDataProvider
         {
-            public delegate void delOfNotify(string mess);
-            public event delOfNotify Notify;
-            int m_amount;
-            public Bag(int amount)
-            {
-                m_amount = amount;
-            }
+            string getData();
+        }
+        interface IDataProcessor
+        {
+            void ProcessData(IDataProvider dataProvider);
+        }
 
-            void showMessageOfEvent(string message)
+        class ConsoleDataProcessor : IDataProcessor
+        {
+            public void ProcessData(IDataProvider dataProvider)
             {
-                Notify?.Invoke(message);
-            }
-
-            public void addAmount(int amount)
-            {
-                m_amount += amount;
-                showMessageOfEvent($"You are added {amount} amount.");
-            }
-
-            public int takeAmount(int amount) 
-            {
-                m_amount -= amount;
-                showMessageOfEvent($"You are taked {amount} amount.");
-                return amount;
-            }
-
-            public void showAmount()
-            {
-                showMessageOfEvent($"You are have {m_amount} of amount.");
+                Console.WriteLine(dataProvider.getData());
             }
         }
 
+        class DbDataProvider : IDataProvider
+        {
+            public string getData()
+            {
+                return "Данные из бд";
+            }
+        }
+
+        class FileDataProvider : IDataProvider
+        {
+            public string getData()
+            {
+                return "Данные из файла";
+            }
+        }
         static void Main(string[] args)
         {
-            Bag myBag = new Bag(100);
-            myBag.Notify += showMessage;
-            myBag.addAmount(50);
-            myBag.takeAmount(100);
-            myBag.showAmount();
-        }
-
-        static void showMessage(string mess)
-        {
-            Console.WriteLine(mess);
+            IDataProcessor dataProcessor = new ConsoleDataProcessor();
+            dataProcessor.ProcessData(new DbDataProvider());
+            dataProcessor.ProcessData(new FileDataProvider());
         }
 
     }
